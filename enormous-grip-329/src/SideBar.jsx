@@ -29,7 +29,7 @@ const ImageWithPlusSign = ({ imageUrl }) => {
 const StickySideBar = () => {
   return (
     
-    <Flex position="sticky"
+    <Flex position="fixed"
       right={0}  // This will stick the sidebar to the right of the browser
       flexDirection="column"
       alignItems="flex-end"
