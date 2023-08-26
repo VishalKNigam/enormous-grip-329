@@ -16,7 +16,7 @@ import { HamburgerIcon, SearchIcon, BellIcon } from '@chakra-ui/icons';
 import { color } from 'framer-motion';
 
  export const Navbar = () => {
-  const { isOpen, onToggle } = useDisclosure();
+  const { isOpen, onToggle, onClose } = useDisclosure();
 
   const navbarItems = [
     { label: 'For You', href: '#' },
